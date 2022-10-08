@@ -3,7 +3,7 @@
 int main()
 {
     int num1, num2, i;
-    //5와 11의 공배수는 FizzBuzz, 5일때는 Fizz 11일때는 Buzz를 출력한다.
+    //5와 11의 공배수는 FizzBuzz, 5일때는 Fizz, 11일때는 Buzz를 출력한다.
     scanf("%d %d", &num1, &num2);
     
     for (i = num1; i <= num2; i++)
