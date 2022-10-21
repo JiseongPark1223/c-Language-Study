@@ -10,7 +10,7 @@ int main()
     
     char *ptr = strchr(s1, ' '); //공백으로 시작하는 문자열의 포인터를 반환한다.
     
-    while (ptr != NULL)
+    while (ptr != NULL) //NULL이 되기 전까지 WHILE문을 반복한다.
     {
         count++; //공백을 찾을때마다 1씩 증가시킨다.
         ptr = strchr(ptr + 1, ' '); //공백 다음문자부터 공백을 찾기 시작한다.
