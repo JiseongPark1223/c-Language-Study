@@ -5,9 +5,9 @@ int main()
 {
     char text[30];
     int length;
-    int n = 4; //4 gram이기에 4단어씩 반복하여 출력한다.
-               //n 이라는 변수에 4를 따로 할당한 이유는 이후 4gram이 아닌 n-gram으로 프로그램을 이용하기에 용이하게 하기 위해서 이다.    
-    scanf ("%s", text);
+    int n; //n-gram에 사용할 변수 n을 선언한다.
+             
+    scanf ("%d %s", &n, text);
     
     length = strlen(text);
     
