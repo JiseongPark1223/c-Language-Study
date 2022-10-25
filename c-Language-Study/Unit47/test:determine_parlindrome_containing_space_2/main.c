@@ -35,5 +35,7 @@ int main()
     
     printf("%d\n", isPalindrome);
     
+    free(text); //text에 할당된 메모리를 해제해준다.
+    
     return 0;
 }
