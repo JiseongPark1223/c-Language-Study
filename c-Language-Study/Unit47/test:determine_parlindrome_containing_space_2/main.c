@@ -26,7 +26,7 @@ int main()
     
     for (int i = 0; i < length / 2; i++)
     {
-        if (text[i] != text[length - 1 - i]) //회문을 판별하고 회문이 아니면 isPalindrome에 0을 저장한다.
+        if (text[i] != text[length - 1 - i]) //회문을 판별하고 회문이 아니면 isPalindrome에 0을 저장한 후 for문을 빠져나온다.
         {
             isPalindrome = 0;
             break;
