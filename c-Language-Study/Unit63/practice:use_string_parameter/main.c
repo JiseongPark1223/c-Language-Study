@@ -22,7 +22,7 @@ int main()
     
     compareString(s1, "Venus"); //s1에 들어간 문자와 Venus를 비교하는 함수에 넣는다.
     
-    free(s1); //malloc함수로 선언한 메모리를 해제한다.
+    free(s1); //malloc함수로 할당된 메모리를 해제한다.
     
     return 0;
 }
