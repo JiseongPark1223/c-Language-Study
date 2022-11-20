@@ -4,7 +4,7 @@
 
 void compareString(char *a, char *b) //문자열 변수 2개를 매개변수로 받고 반환값은 없는 함수를 선언한다.
 {
-    if(strcmp(a, b) == 0) //strcmp함수를 이용에 같으면 같음을 출력 다르면 다름을 출력한다.
+    if(strcmp(a, b) == 0) //strcmp함수를 이용에 같으면 "같음"을 출력 다르면 "다름"을 출력한다.
     {
         printf("같음");
     }
