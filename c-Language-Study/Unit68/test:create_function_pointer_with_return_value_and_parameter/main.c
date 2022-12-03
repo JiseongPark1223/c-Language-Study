@@ -46,7 +46,7 @@ int main()
         fp = div;
     }
     
-    printf("%d\n", fp(&num1, &num2)); //함수 포인터로 함수를 호출한다.
+    printf("%d\n", fp(&num1, &num2)); //함수 포인터로 함수를 호출한 후 값을 출력한다.
     
     return 0;
 }
