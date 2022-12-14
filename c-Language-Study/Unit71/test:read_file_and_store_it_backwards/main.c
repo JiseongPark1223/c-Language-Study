@@ -32,7 +32,7 @@ int main()
     
     for (int i = size - 1; i >= 0; i--) //size - 1부터 시작해야 문자열의 마지막 문자의 시작 주솟값을 표시할 수 있다.
     {
-        fwrite(&buffer[i], 1, 1, stdout);
+        fwrite(buffer + i, 1, 1, stdout);
     }
     
     fclose(fp);
