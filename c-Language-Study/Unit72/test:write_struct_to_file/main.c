@@ -7,7 +7,7 @@ struct X820Firmware {
     char desc[13];
     short tag;
     char mode;
-}
+};
 #pragma pack(pop) //정렬을 해제한다.
 
 int main()
