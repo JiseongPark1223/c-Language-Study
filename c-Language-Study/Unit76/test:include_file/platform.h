@@ -25,9 +25,9 @@
 #define TARGET_PLATFORM PLATFORM_MAC
 #endif
 
-#if TARGET_PLATFORM == PLATFORM_LINUX
-#define printf 
-#define fprint 
+#if TARGET_PLATFORM == PLATFORM_ANDROID
+#undef printf 
+#undef fprint 
 #define printf printf
 #define fprint fprintf
 #else

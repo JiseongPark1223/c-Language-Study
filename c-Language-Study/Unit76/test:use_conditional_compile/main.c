@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define TARGET_PLATFORM 4 //TARGET_PLATFORM==PLATFORM_LINUX 조건식에 부합해야 하기에 PLATFORM_LINUX 값인 4를 TARGET_PLATFORM에 저장한다.
+#define LINUX //TARGET_PLATFORM==PLATFORM_LINUX 조건식에 부합해야 하기에 LINUX를 매크로로 정의하여 조건식에 부합하게 한다.
 
 #define PLATFORM_UNKNOWN 0
 #define PLATFORM_IOS     1
